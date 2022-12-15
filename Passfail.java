@@ -1,20 +1,25 @@
-package excercise1;
-
+	import java.util.Scanner;
 public class Passfail {
+		public static void main(String[] args) {
+	        int marks;
+	        Scanner sc = new Scanner(System.in);
 
-	public static void main(String[] args) {
-		 int m=Mark;
-		    public void GetGrade(int mark){
-		
-		    }
-		public void GradeCheck(int mark){
-		  
-			if(mark >= 50){
-		        System.out.println("Pass");
-		    }
-		    else{
-		        System.out.println("Fail");
-		    }
-	}
+	        System.out.println("Enter the marks:");
+	        marks = sc.nextInt();
 
-}
+	        if (marks >= 50) {
+	            System.out.println("PASS");
+
+	        } else {
+	            System.out.println("FAILS");
+	        }
+
+	        System.out.println("Thank you");
+
+	        sc.close();
+	    }
+
+
+		}
+
+
